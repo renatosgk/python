@@ -17,7 +17,7 @@ idade_usuario=(ano - ano_usuario)
 print(f"seu aniversario é no dia {dia_usuario}/{mes_usuario}/{ano_usuario}")
 
 
-if dia_usuario >= dia and mes_usuario >=mes:
+if dia_usuario <= dia and mes_usuario <=mes:
     print(f"parabens voce fez aniversario esse ano! e tem {idade_usuario} ")
 else:
     print(f"voce ainda nao fez aniversario essse ano , e vai fazer {idade_usuario}")
